@@ -1,6 +1,6 @@
 import 'package:fpdart/fpdart.dart';
 import 'package:shared/core/errors/failures.dart';
-import '../repositories/livraison_repository.dart';
+import 'package:shared/core/repositories/livraison_repository.dart';
 class EstimatePriceUseCase {
   final LivraisonRepository repository;
   EstimatePriceUseCase(this.repository);

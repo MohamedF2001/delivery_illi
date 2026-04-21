@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import '../providers/auth_provider.dart';
+import 'package:mobile_app/features/auth/presentation/providers/auth_provider.dart';
 import 'package:shared/core/config/app_theme.dart';
 
 class SplashPage extends ConsumerStatefulWidget {
@@ -30,7 +30,7 @@ class _SplashPageState extends ConsumerState<SplashPage>
   void _navigate() {
     if (!mounted) return;
     final auth = ref.read(authProvider);
-    if (auth.isLoggedIn) {
+    if (auth.isAuthenticated) {
       context.go(_homeForRole(auth.user?.role));
     } else {
       context.go('/auth/login');

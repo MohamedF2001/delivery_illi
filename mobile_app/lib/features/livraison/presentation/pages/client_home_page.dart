@@ -4,10 +4,10 @@ import 'package:go_router/go_router.dart';
 import 'package:shared/core/config/app_theme.dart';
 import 'package:shared/core/utils/formatters.dart';
 import 'package:shared/core/widgets/statut_badge.dart';
-import '../../../auth/presentation/providers/auth_provider.dart';
-import '../../../notification/data/datasources/notification_remote_datasource.dart';
+import 'package:mobile_app/features/livraison/presentation/providers/auth_provider.dart';
+import 'package:shared/features/notification/data/datasources/notification_remote_datasource.dart';
 import 'package:shared/core/api/api_client.dart';
-import '../providers/livraison_provider.dart';
+import 'package:mobile_app/features/livraison/presentation/providers/livraison_provider.dart';
 
 class ClientHomePage extends ConsumerWidget {
   const ClientHomePage({super.key});

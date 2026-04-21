@@ -8,10 +8,10 @@ import 'package:shared/core/widgets/empty_state.dart';
 import 'package:shared/core/widgets/error_display.dart';
 import 'package:shared/core/widgets/loading_button.dart';
 import 'package:shared/core/widgets/statut_badge.dart';
-import '../../../auth/presentation/providers/auth_provider.dart';
+import 'package:web_app/features/point_illico/presentation/providers/auth_provider.dart';
 import 'package:shared/features/auth/data/datasources/point_illico_remote_datasource.dart';
 import 'package:shared/core/api/api_client.dart';
-import '../providers/point_illico_provider.dart';
+import 'package:web_app/features/point_illico/presentation/providers/point_illico_provider.dart';
 
 class PointColisPage extends ConsumerStatefulWidget {
   const PointColisPage({super.key});

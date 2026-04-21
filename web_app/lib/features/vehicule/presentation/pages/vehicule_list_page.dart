@@ -7,7 +7,7 @@ import 'package:shared/core/widgets/demo_dialog.dart';
 import 'package:shared/core/widgets/empty_state.dart';
 import 'package:shared/core/widgets/error_display.dart';
 import 'package:shared/core/widgets/loading_button.dart';
-import '../providers/vehicule_provider.dart';
+import 'package:web_app/features/vehicule/presentation/providers/vehicule_provider.dart';
 import 'package:shared/features/auth/domain/entities/vehicule_entity.dart';
 import 'package:shared/core/api/api_client.dart';
 import 'package:shared/features/auth/data/datasources/vehicule_remote_datasource.dart';

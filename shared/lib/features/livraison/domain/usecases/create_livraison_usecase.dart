@@ -1,7 +1,7 @@
 import 'package:fpdart/fpdart.dart';
 import 'package:shared/core/errors/failures.dart';
-import '../entities/livraison_entity.dart';
-import '../repositories/livraison_repository.dart';
+import 'package:shared/core/entities/livraison_entity.dart';
+import 'package:shared/core/repositories/livraison_repository.dart';
 class CreateLivraisonUseCase {
   final LivraisonRepository repository;
   CreateLivraisonUseCase(this.repository);

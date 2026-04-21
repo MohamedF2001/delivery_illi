@@ -8,8 +8,8 @@ import 'package:shared/core/utils/formatters.dart';
 import 'package:shared/core/widgets/demo_dialog.dart';
 import 'package:shared/core/widgets/empty_state.dart';
 import 'package:shared/core/widgets/statut_badge.dart';
-import 'package:mobile_app/features/livreur/presentation/providers/auth_provider.dart';
-import 'package:mobile_app/features/livreur/presentation/providers/livreur_provider.dart';
+import 'package:web_app/features/livreur/presentation/providers/auth_provider.dart';
+import 'package:web_app/features/livreur/presentation/providers/livreur_provider.dart';
 
 class MissionsPage extends ConsumerWidget {
   const MissionsPage({super.key});

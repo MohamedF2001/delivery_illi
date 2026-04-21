@@ -2,8 +2,8 @@ import 'package:fpdart/fpdart.dart';
 import 'package:shared/core/errors/failures.dart';
 import 'package:shared/features/auth/domain/entities/user_entity.dart';
 import 'package:shared/features/auth/domain/repositories/auth_repository.dart';
-import 'package:shared/features/auth/datasources/auth_remote_datasource.dart';
-import '../mappers/user_mapper.dart';
+import 'package:shared/features/auth/data/datasources/auth_remote_datasource.dart';
+import 'package:shared/features/auth/data/mappers/user_mapper.dart';
 
 class AuthRepositoryImpl implements AuthRepository {
   final AuthRemoteDataSource _ds;

@@ -7,7 +7,7 @@ import 'package:shared/core/utils/formatters.dart';
 import 'package:shared/core/widgets/empty_state.dart';
 import 'package:shared/core/widgets/error_display.dart';
 import 'package:shared/core/widgets/statut_badge.dart';
-import '../providers/livraison_provider.dart';
+import 'package:mobile_app/features/livraison/presentation/providers/livraison_provider.dart';
 import 'package:shared/features/auth/domain/entities/livraison_entity.dart';
 
 class LivraisonsListPage extends ConsumerStatefulWidget {

@@ -22,11 +22,11 @@ final routerProvider = Provider<GoRouter>((ref) {
     refreshListenable: RouterNotifier(ref),
     redirect: (context, state) {
       final authState = ref.read(authProvider);
-      final isLoggedIn = authState.isLoggedIn;
+      final isAuthenticated = authState.isAuthenticated;
       final loc = state.matchedLocation;
       final isAuth = loc == '/auth/login' || loc == '/splash';
-      if (!isLoggedIn && !isAuth) return '/auth/login';
-      if (isLoggedIn && isAuth) return _homeForRole(authState.user?.role);
+      if (!isAuthenticated && !isAuth) return '/auth/login';
+      if (isAuthenticated && isAuth) return _homeForRole(authState.user?.role);
       return null;
     },
     routes: [

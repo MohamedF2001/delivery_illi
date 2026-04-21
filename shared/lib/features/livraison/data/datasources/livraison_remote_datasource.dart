@@ -2,7 +2,7 @@ import 'package:dio/dio.dart';
 import 'package:fpdart/fpdart.dart';
 import 'package:shared/core/api/api_client.dart';
 import 'package:shared/core/errors/failures.dart';
-import '../models/livraison_model.dart';
+import 'package:shared/core/models/livraison_model.dart';
 
 class LivraisonRemoteDataSource {
   final ApiClient _api;

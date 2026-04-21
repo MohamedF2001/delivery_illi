@@ -18,15 +18,15 @@ final routerProvider = Provider<GoRouter>((ref) {
     refreshListenable: RouterNotifier(ref),
     redirect: (context, state) async {
       final authState = ref.read(authProvider);
-      final isLoggedIn = authState.isLoggedIn;
+      final isAuthenticated = authState.isAuthenticated;
       final loc = state.matchedLocation;
       final prefs = await SharedPreferences.getInstance();
       final selectedRole = prefs.getString('selected_role');
       final isAuth = loc == '/auth/login' || loc == '/auth/register' || loc == '/splash' || loc == '/auth/role';
 
       if (selectedRole == null && loc != '/auth/role' && loc != '/splash') return '/auth/role';
-      if (!isLoggedIn && !isAuth) return '/auth/login';
-      if (isLoggedIn && isAuth) return _homeForRole(authState.user?.role);
+      if (!isAuthenticated && !isAuth) return '/auth/login';
+      if (isAuthenticated && isAuth) return _homeForRole(authState.user?.role);
       return null;
     },
     routes: [

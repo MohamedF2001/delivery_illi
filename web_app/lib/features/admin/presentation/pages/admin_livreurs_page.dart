@@ -5,8 +5,8 @@ import 'package:shared/core/utils/formatters.dart';
 import 'package:shared/core/widgets/demo_dialog.dart';
 import 'package:shared/core/widgets/empty_state.dart';
 import 'package:shared/core/widgets/error_display.dart';
-import '../../../livreur/data/datasources/livreur_remote_datasource.dart';
-import '../../../livreur/presentation/providers/livreur_provider.dart';
+import 'package:shared/features/livreur/data/datasources/livreur_remote_datasource.dart';
+import 'package:web_app/features/admin/presentation/providers/livreur_provider.dart';
 import 'package:shared/core/api/api_client.dart';
 
 class AdminLivreursPage extends ConsumerWidget {

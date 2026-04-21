@@ -2,7 +2,7 @@ import 'package:dio/dio.dart';
 import 'package:fpdart/fpdart.dart';
 import 'package:shared/core/api/api_client.dart';
 import 'package:shared/core/errors/failures.dart';
-import '../models/zone_model.dart';
+import 'package:shared/core/models/zone_model.dart';
 
 class ZoneRemoteDataSource {
   final ApiClient _api;

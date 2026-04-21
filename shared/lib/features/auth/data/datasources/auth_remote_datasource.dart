@@ -2,7 +2,7 @@ import 'package:dio/dio.dart';
 import 'package:fpdart/fpdart.dart';
 import 'package:shared/core/api/api_client.dart';
 import 'package:shared/core/errors/failures.dart';
-import '../models/user_model.dart';
+import 'package:shared/core/models/user_model.dart';
 
 class AuthRemoteDataSource {
   final ApiClient _api;

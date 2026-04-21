@@ -1,6 +1,6 @@
 import 'package:fpdart/fpdart.dart';
 import 'package:shared/core/errors/failures.dart';
-import '../entities/user_entity.dart';
+import 'package:shared/core/entities/user_entity.dart';
 
 abstract class AuthRepository {
   Future<Either<Failure, Map<String, dynamic>>> loginAdmin({required String email, required String motDePasse});

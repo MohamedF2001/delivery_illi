@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../config/app_theme.dart';
+import 'package:shared/core/config/app_theme.dart';
 
 class LoadingButton extends StatelessWidget {
   final VoidCallback? onPressed;

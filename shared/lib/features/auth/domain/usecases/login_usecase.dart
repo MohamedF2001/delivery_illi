@@ -1,6 +1,6 @@
 import 'package:fpdart/fpdart.dart';
 import 'package:shared/core/errors/failures.dart';
-import '../repositories/auth_repository.dart';
+import 'package:shared/core/repositories/auth_repository.dart';
 
 class LoginUseCase {
   final AuthRepository repository;

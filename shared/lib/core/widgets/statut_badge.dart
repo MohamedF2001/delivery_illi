@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../config/app_theme.dart';
-import '../utils/formatters.dart';
+import 'package:shared/core/config/app_theme.dart';
+import 'package:shared/core/utils/formatters.dart';
 
 class StatutBadge extends StatelessWidget {
   final String statut;

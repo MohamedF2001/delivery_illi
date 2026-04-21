@@ -1,4 +1,4 @@
-import '../models/user_model.dart';
+import 'package:shared/core/models/user_model.dart';
 import 'package:shared/features/auth/domain/entities/user_entity.dart';
 
 extension UserModelMapper on UserModel {

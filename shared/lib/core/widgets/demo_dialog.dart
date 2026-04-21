@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../config/app_config.dart';
+import 'package:shared/core/config/app_config.dart';
 
 void showDemoDialog(BuildContext context) {
   showDialog(

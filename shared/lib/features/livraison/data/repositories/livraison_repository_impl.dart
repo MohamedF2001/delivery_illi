@@ -2,7 +2,7 @@ import 'package:fpdart/fpdart.dart';
 import 'package:shared/core/errors/failures.dart';
 import 'package:shared/features/livraison/domain/entities/livraison_entity.dart';
 import 'package:shared/features/livraison/domain/repositories/livraison_repository.dart';
-import 'package:shared/features/livraison/datasources/livraison_remote_datasource.dart';
+import 'package:shared/features/livraison/data/datasources/livraison_remote_datasource.dart';
 
 class LivraisonRepositoryImpl implements LivraisonRepository {
   final LivraisonRemoteDataSource _ds;

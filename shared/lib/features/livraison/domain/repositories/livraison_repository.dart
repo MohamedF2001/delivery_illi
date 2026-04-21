@@ -1,6 +1,6 @@
 import 'package:fpdart/fpdart.dart';
 import 'package:shared/core/errors/failures.dart';
-import '../entities/livraison_entity.dart';
+import 'package:shared/core/entities/livraison_entity.dart';
 
 abstract class LivraisonRepository {
   Future<Either<Failure, Map<String, dynamic>>> estimatePrice(Map<String, dynamic> body);

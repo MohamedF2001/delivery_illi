@@ -2,7 +2,7 @@ import 'package:fpdart/fpdart.dart';
 import 'package:shared/core/errors/failures.dart';
 import 'package:shared/features/vehicule/domain/entities/vehicule_entity.dart';
 import 'package:shared/features/vehicule/domain/repositories/vehicule_repository.dart';
-import 'package:shared/features/vehicule/datasources/vehicule_remote_datasource.dart';
+import 'package:shared/features/vehicule/data/datasources/vehicule_remote_datasource.dart';
 
 class VehiculeRepositoryImpl implements VehiculeRepository {
   final VehiculeRemoteDataSource _ds;

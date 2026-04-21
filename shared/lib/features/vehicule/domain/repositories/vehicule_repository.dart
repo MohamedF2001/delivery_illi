@@ -1,6 +1,6 @@
 import 'package:fpdart/fpdart.dart';
 import 'package:shared/core/errors/failures.dart';
-import '../entities/vehicule_entity.dart';
+import 'package:shared/core/entities/vehicule_entity.dart';
 abstract class VehiculeRepository {
   Future<Either<Failure, List<VehiculeEntity>>> getAll({bool? actif});
   Future<Either<Failure, VehiculeEntity>> getById(String id);
